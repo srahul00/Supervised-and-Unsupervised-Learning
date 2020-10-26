@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 import sys
-sys.path.append("../Classifiers/")
-from KNNClassifi import KNNC
+sys.path.append("../Models/")
+from KNN import KNNC
 
 
 def aucplot(model_probabilities, ytest):
